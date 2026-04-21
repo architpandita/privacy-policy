@@ -1,87 +1,41 @@
 Privacy Policy for Vantage
-Last Updated: February 06, 2026
+Last Updated: April 22, 2026
 
-Vantage ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application (the "App"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the application.
+Archit Pandita ("we," "our," or "us") operates the Vantage mobile application. This Privacy Policy explains how we handle information in our read-only technical data analysis platform.
 
-1. Information We Collect
-We collect information that identifies you personally and financial data necessary to provide our portfolio analysis services.
+1. Information Collection and Storage
+Vantage is designed as a read-only analytics interface. We prioritize data minimization and do not maintain long-term persistent storage of your processed technical metrics.
 
-A. Personal Data
-When you register via Google Sign-In, we collect the following basic profile information:
+Identity Data: We collect your Email ID via Google Sign-In for the sole purpose of account authentication and securing your session.
 
-Name: To personalize your experience.
+Transient Analysis Data: The App processes numerical data points (e.g., sensor metrics, unit counts, or threshold levels). This data is used for real-time processing and analysis only.
 
-Email Address: To authenticate your account and send important notifications regarding your portfolio analysis (e.g., "Target Break" alerts).
+Non-Persistence: Analysis data is treated as transient cache. We do not store this data in long-term permanent memory or databases; it exists only to facilitate the immediate analytical session.
 
-Profile Picture: To display on your user profile within the App.
+2. How We Use Your Data
+Data is used strictly to provide the following features within the system:
 
-B. Financial & Portfolio Data
-To provide the core functionality of the App (Portfolio Analysis & AI Insights), we collect:
+Read-Only Visualization: Displaying current technical metrics in a dashboard format.
 
-Stock Holdings: Symbols, quantities, average buy prices, and current market prices.
+Threshold Monitoring: Comparing transient data against user-defined limits to trigger "Status Alerts."
 
-Trading Data: Profit/Loss (PnL), day change, and investment values.
+In-System Processing: All analysis remains within the Vantage environment; data is never transmitted to external third parties for marketing or tracking.
 
-User Preferences: Custom targets, stop-loss limits, and personal notes/comments added to specific stocks.
+3. Disclosure and Data Sharing
+Zero-External Sharing: We do not sell, trade, or share your data with any third-party entities.
 
-C. Brokerage Credentials
-If you choose to connect your brokerage account (e.g., Zerodha Kite) to sync data automatically, we may collect and store:
+Authentication: Identity verification is handled via Google. Please refer to Google’s privacy policy regarding their handling of authentication tokens.
 
-API Keys & Secrets: Used strictly to fetch your holding data from your broker.
+4. Security
+We use industry-standard administrative and technical security measures:
 
-User IDs: To identify your account with the broker.
+Encryption: All data in transit between the App and our analysis engine is secured via SSL/TLS (HTTPS).
 
-Note: We do not store your raw banking passwords. Critical credentials are stored using secure encryption methods.
+Access Control: Access to the session is restricted via secure Google SSO tokens.
 
-2. How We Use Your Information
-Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we use information collected via the App to:
+5. Your Data Rights
+Since we do not persist your analysis data, "deletion" primarily applies to your user account profile. You may request the deletion of your account at any time.
 
-Provide Services: Sync your portfolio data and display your Net Worth and Holdings.
-
-Generate Insights: Analyze your holdings to provide "Target Attainability," "Range Break" status, and AI-driven summaries.
-
-Send Notifications: Alert you via email or push notifications when a stock hits a Target or Stop Loss.
-
-Security: Validate your identity through Google Sign-In and secure your session.
-
-App Improvement: Analyze usage trends to improve the App’s layout and features.
-
-3. Disclosure of Your Information
-We do not sell, trade, or rent your personal or financial identification information to others. We may share information only in the following situations:
-
-A. Third-Party Service Providers
-Google (Firebase/Auth): We use Google services for authentication. Your login data is processed by Google in accordance with their privacy policy.
-
-Brokerage APIs (e.g., Zerodha Kite): When you sync your portfolio, the App communicates directly with your broker's API using the keys you provide. We do not control how your broker processes this data; please refer to your broker's privacy policy.
-
-B. Legal Requirements
-We may disclose your information if required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency).
-
-4. Security of Your Information
-We use administrative, technical, and physical security measures to help protect your personal information.
-
-Encryption: Sensitive data (like API Keys and Access Tokens) is stored using secure storage mechanisms (e.g., encrypted shared preferences).
-
-Secure Transmission: Data transmitted between the App and our servers is encrypted via SSL/TLS (HTTPS).
-
-While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.
-
-5. Children’s Privacy
-We do not knowingly solicit information from or market to children under the age of 13. If we learn that we have collected personal information from a child under age 13 without verification of parental consent, we will delete that information as quickly as possible.
-
-6. Your Data Rights
-Depending on your location, you may have the following rights:
-
-Access: You can view your portfolio data directly within the App.
-
-Correction: You can update your strategies (Targets/Stop Losses) via the "Edit" feature on stock cards.
-
-Deletion: You may request the deletion of your account and all associated data stored on our servers by contacting us.
-
-7. Changes to This Privacy Policy
-We may update this Privacy Policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal, or regulatory reasons. We will notify you of any changes by updating the "Last Updated" date of this Privacy Policy.
-
-8. Contact Us
+6. Contact Us
 If you have questions or comments about this Privacy Policy, or if you would like to request the deletion of your data, please contact us at:
-
 Email: pandita.archit@gmail.com
